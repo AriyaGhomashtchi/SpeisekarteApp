@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // implementiere einen onClicklistener für das Cocktail Icon
-        // TODO Schreibe hier deinen Code
+        // TODO Schreibe hier deinen Code 1
         Binding.drink3Button.setOnClickListener {addToBill(drink3.price)
         drink3.count++
             Binding.drink3Count.text = drink3.count.toString()
